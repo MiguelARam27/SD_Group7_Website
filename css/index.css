@@ -301,7 +301,10 @@ footer .footer_grid {
 footer .footer_grid a {
   text-align: center;
   text-decoration: none;
-  color: #fafafa;
+}
+footer .footer_grid i {
+  padding-left: 2%;
+  color: whitesmoke;
 }
 
 /*# sourceMappingURL=index.css.map */
