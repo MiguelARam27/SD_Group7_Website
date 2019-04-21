@@ -1,0 +1,24 @@
+{
+  "name": "sd_group7_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelARam27/SD_Group7_Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiguelARam27/SD_Group7_Website/issues"
+  },
+  "homepage": "https://github.com/MiguelARam27/SD_Group7_Website#readme",
+  "dependencies": {
+    "@dogstudio/highway": "^2.1.2",
+    "gsap": "^2.1.2",
+    "parcel-bundler": "^1.12.3"
+  }
+}
