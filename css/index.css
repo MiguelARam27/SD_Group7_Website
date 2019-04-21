@@ -296,15 +296,26 @@ footer h3 {
 }
 footer .footer_grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 footer .footer_grid a {
   text-align: center;
   text-decoration: none;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  vertical-align: center;
 }
 footer .footer_grid i {
   padding-left: 2%;
   color: whitesmoke;
+  font-size: 36px;
+  vertical-align: bottom;
+}
+footer .footer_grid #html5 {
+  color: #ff9800;
+}
+footer .footer_grid #css3 {
+  color: #ffeb3b;
 }
 
 /*# sourceMappingURL=index.css.map */

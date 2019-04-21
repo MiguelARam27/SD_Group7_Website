@@ -337,15 +337,28 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     }
     .footer_grid{
         display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         a{
             text-align: center;
             text-decoration: none;
+            color:white;
+            font-family: $font2;
+            vertical-align: center;
         }
         i{
             padding-left:2%;
             color:whitesmoke;
+            font-size: 36px;
+            vertical-align: bottom;
         }
+
+        #html5{
+            color:#ff9800;
+        }
+        #css3{
+            color:#ffeb3b;
+        }
+    
     
     }
 }
