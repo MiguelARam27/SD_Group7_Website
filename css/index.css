@@ -204,8 +204,11 @@ nav .nav_wrap .nav-list {
 .document_container .sd2 h3 {
   font-family: "Raleway", sans-serif;
 }
+.document_container .sd2 #ppt {
+  color: blue;
+}
 .document_container .sd2 .doc_grid {
-  width: 100%;
+  width: 60%;
   height: 50%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -281,7 +284,7 @@ nav .nav_wrap .nav-list {
 }
 
 footer {
-  height: 30vh;
+  height: 40vh;
   width: 100%;
   background-color: #26a69a;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23000' fill-opacity='.1' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
@@ -297,6 +300,7 @@ footer h3 {
 footer .footer_grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 25px;
 }
 footer .footer_grid a {
   text-align: center;
@@ -316,6 +320,18 @@ footer .footer_grid #html5 {
 }
 footer .footer_grid #css3 {
   color: #ffeb3b;
+}
+footer .footer_grid #js {
+  color: #03a9f4;
+}
+footer .footer_grid #django {
+  color: #00BB77;
+}
+footer .footer_grid #m {
+  color: #f06292;
+}
+footer .footer_grid #f {
+  color: #673ab7;
 }
 
 /*# sourceMappingURL=index.css.map */
